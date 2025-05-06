@@ -6,7 +6,7 @@ def choose_word():
 
 def display_word(word, guessed_letters):
     return " ".join([letter if letter in guessed_letters else "_" for letter in word])
-
+#hangman game
 def play_hangman():
     word = choose_word()
     guessed_letters = set()
